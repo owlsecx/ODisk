@@ -18,13 +18,18 @@
 
 ## 📌 Overview
 
-Disk Forensic Suite
+ODisk is a read-only disk forensic suite for imaging-oriented investigation of drives and disk images. It focuses on partitions, hashing, and filesystem inspection without modifying evidence. Use it to triage media safely during incident response and lab analysis.
 
 ---
 
 ## ✨ Features
 
-- Read-only disk images — partitions, hashes, and filesystem identity
+- Read-only handling of disk images and forensic media
+- Partition table and layout inspection
+- Hashing support for evidence integrity
+- Filesystem-oriented triage views for investigators
+- Safe-by-design workflow that avoids writes to evidence
+- Suited to IR labs and offline disk review
 
 ---
 
@@ -39,6 +44,7 @@ Disk Forensic Suite
 
 ```bash
 ./ODisk
+./ODisk --help
 ```
 
 ---
